@@ -15,3 +15,11 @@ for (i = 1; i <= 5; i++) {
   }
   console.log(str);
 }
+console.log("Pattern.3");
+for (i = 1; i <= 5; i++) {
+  var str = "";
+  for (j = 1; j <= i; j++) {
+    str += j;
+  }
+  console.log(str);
+}
