@@ -23,3 +23,12 @@ for (i = 1; i <= 5; i++) {
   }
   console.log(str);
 }
+
+console.log("Pattern.4");
+for (i = 1; i <= 5; i++) {
+  var str = "";
+  for (j = 1; j <= i; j++) {
+    str += i;
+  }
+  console.log(str);
+}
