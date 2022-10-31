@@ -50,3 +50,16 @@ for (i = 5; i >= 1; i--) {
   }
   console.log(str);
 }
+ console.log("Pattern.7")
+var n = 5
+for(i=1;i<=n; i++){
+  var str =""
+  //spaces
+  for(k = 1; k <= n-i; k++){
+    str += " "
+  }
+  for (j = 1; j<=(2*i-1); j++){
+    str += "*"
+  }
+console.log(str)
+}
