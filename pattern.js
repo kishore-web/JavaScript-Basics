@@ -63,3 +63,16 @@ for(i=1;i<=n; i++){
   }
 console.log(str)
 }
+
+//console.log("Pattern.8")
+for(i = 5;i >= 1; i--){
+  var str =""
+  //spaces
+  for(k=1; k <= (5-i); k++){
+    str += " "
+  }
+  for (j = 1; j <= (2*i-1); j++){
+    str += "*"
+  }
+console.log(str)
+}
