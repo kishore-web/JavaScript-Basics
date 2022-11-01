@@ -1,4 +1,4 @@
-console.log("Pattern.1");
+//console.log("Pattern.1");
 for (i = 1; i <= 5; i++) {
   var str = "";
   for (j = 1; j <= 5; j++) {
@@ -7,7 +7,7 @@ for (i = 1; i <= 5; i++) {
   console.log(str);
 }
 
-console.log("Pattern.2");
+//console.log("Pattern.2");
 for (i = 1; i <= 5; i++) {
   var str = "";
   for (j = 1; j <= i; j++) {
@@ -15,7 +15,7 @@ for (i = 1; i <= 5; i++) {
   }
   console.log(str);
 }
-console.log("Pattern.3");
+//console.log("Pattern.3");
 for (i = 1; i <= 5; i++) {
   var str = "";
   for (j = 1; j <= i; j++) {
@@ -24,7 +24,7 @@ for (i = 1; i <= 5; i++) {
   console.log(str);
 }
 
-console.log("Pattern.4");
+//console.log("Pattern.4");
 for (i = 1; i <= 5; i++) {
   var str = "";
   for (j = 1; j <= i; j++) {
@@ -33,7 +33,7 @@ for (i = 1; i <= 5; i++) {
   console.log(str);
 }
 
-console.log("Pattern.5");
+//console.log("Pattern.5");
 for (i = 5; i >= 1; i--) {
   var str = "";
   for (j = 1; j <= i; j++) {
@@ -41,7 +41,7 @@ for (i = 5; i >= 1; i--) {
   }
   console.log(str);
 }
-console.log("Pattern.6");
+//console.log("Pattern.6");
 
 for (i = 5; i >= 1; i--) {
   var str = "";
@@ -50,7 +50,7 @@ for (i = 5; i >= 1; i--) {
   }
   console.log(str);
 }
- console.log("Pattern.7")
+// console.log("Pattern.7")
 var n = 5
 for(i=1;i<=n; i++){
   var str =""
@@ -77,7 +77,7 @@ for(i = 5;i >= 1; i--){
 console.log(str)
 }
 
-console.log("Pattern.9")
+//console.log("Pattern.9")
 var n = 10
 for(i = 1;i <= n; i++){
   var str =""
@@ -90,4 +90,20 @@ for(i = 1;i <= n; i++){
   }
 console.log(str)
 }
-// git 
+
+//console.log("Pattern.10")
+ var n = 5
+for(i = 1;i <= n; i++){
+  var str = ""
+  for (j = 1; j <= i; j++){
+    str += "*"
+  }
+console.log(str)
+}
+ for(let i = n-1;i >= 1;i--){
+  var str = "";
+  for(let j = 1; j <= i; j++){
+    str = str + "*"
+  }
+  console.log(str)
+}
