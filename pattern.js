@@ -107,3 +107,32 @@ console.log(str)
   }
   console.log(str)
 }
+
+console.log("Pattern.11")
+for(i = 1;i <= 5;i++){
+  str = ""
+  for(j=1;j<=i;j++){
+    if((i+j)%2==1){
+       str += "0"+" "
+    } else {
+       str += "1" + " "
+    }
+  }
+  console.log(str)
+}
+
+console.log("Pattern.12")
+ var str =""
+for(i=1;i<=4; i++){
+  var str =""
+  for (j = 1; j<=i; j++){
+    str += j
+  }
+  for(k=5;k>=(2*i-2);k--){
+    str += " "
+  }
+  for (j = 1; j<=i; j++){
+    str += i-j+1
+  }
+console.log(str)
+}
