@@ -136,3 +136,14 @@ for(i=1;i<=4; i++){
   }
 console.log(str)
 }
+
+//console.log("Pattern.13")
+var num = 1;
+for (i = 1; i <= 5; i++) {
+  var str = "";
+  for (j = 1; j <= i; j++) {
+    str += num + " "
+    num++
+  }
+  console.log(str)
+}
