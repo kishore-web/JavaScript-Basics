@@ -165,3 +165,22 @@ for(i=5;i>=1; i--){
   }
 console.log(str)
 }
+
+console.log("Pattern.17")
+for(i=1;i<=4; i++){
+  var str =""
+  for (j = 1; j<=i; j++){
+       str += String.fromCharCode(64+(j))
+    } 
+console.log(str)
+}
+
+console.log("Pattern.18")
+
+for (i = 4; i >= 0; i--) {
+  var str = ""
+  for (j = i; j <= 4; j++) {
+    str += String.fromCharCode(65 + (j))+' '
+  }
+  console.log(str)
+}
