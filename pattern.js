@@ -166,7 +166,7 @@ for(i=5;i>=1; i--){
 console.log(str)
 }
 
-console.log("Pattern.17")
+//console.log("Pattern.16")
 for(i=1;i<=4; i++){
   var str =""
   for (j = 1; j<=i; j++){
@@ -175,7 +175,7 @@ for(i=1;i<=4; i++){
 console.log(str)
 }
 
-console.log("Pattern.18")
+//console.log("Pattern.17")
 
 for (i = 4; i >= 0; i--) {
   var str = ""
