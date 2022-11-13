@@ -184,3 +184,11 @@ for (i = 4; i >= 0; i--) {
   }
   console.log(str)
 }
+//console.log("Pattern.18")
+for(i=1;i<=5; i++){
+  var str =""
+  for (j = 1; j<=i; j++){
+    str += String.fromCharCode(64+i)
+  }
+console.log(str)
+}
