@@ -229,3 +229,23 @@ for(i= 1;i<=n; i++){
   }
   console.log(str)
 }
+//console.log("Pattern: 22")
+for(i= 1;i<=7; i++){
+ str = ""
+  for(j=1; j<=7; j++){
+    if(i>=2 && i<=6 && j>=2 && j<=6){
+      str += "3"
+    } 
+       
+    else if(i>=3 || i<=5 && j>=3 || j<=5){
+      str += "4"
+    }
+     else if(i==7 && j==7){
+      str += "2"
+    }
+    // else {
+    //    str += "4"
+    // }
+  }
+  console.log(str)
+}
