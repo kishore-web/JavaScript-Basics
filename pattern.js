@@ -216,3 +216,16 @@ for(i = 4;i>=1;i--){
   }
   console.log(str)
 }
+//console.log("Pattern: 21")
+var n = 5
+for(i= 1;i<=n; i++){
+  str = "" 
+  for(j=1;j<=n-1;j++){
+    if(i>1 && i< n && j>1 && j<n-1){
+      str += " "
+    } else{
+      str += "*" 
+    }
+  }
+  console.log(str)
+}
