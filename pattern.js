@@ -184,7 +184,10 @@ for (i = 4; i >= 0; i--) {
   }
   console.log(str)
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 45611c044d7c5592b945eca797a85e8330cf9a40
 //console.log("Pattern.18")
 for(i=1;i<=5; i++){
   var str =""
@@ -192,4 +195,65 @@ for(i=1;i<=5; i++){
     str += String.fromCharCode(64+i)
   }
 console.log(str)
+<<<<<<< HEAD
 }
+=======
+}
+
+// console.log("Pattern.19")
+for(i = 5;i>=1;i--){
+  var str = "";
+  for(j=1; j<= i; j++){
+    str = str +"*"
+  }
+  console.log(str)
+}
+// console.log("Pattern.20")
+for(i = 1;i<=5;i++){
+  var str = "";
+  for(j=1; j<= i; j++){
+    str = str +"*"
+  }
+  console.log(str)
+}
+for(i = 4;i>=1;i--){
+  var str = "";
+  for(j=1; j<= i; j++){
+    str = str +"*"
+  }
+  console.log(str)
+}
+//console.log("Pattern: 21")
+var n = 5
+for(i= 1;i<=n; i++){
+  str = "" 
+  for(j=1;j<=n-1;j++){
+    if(i>1 && i< n && j>1 && j<n-1){
+      str += " "
+    } else{
+      str += "*" 
+    }
+  }
+  console.log(str)
+}
+//console.log("Pattern: 22")
+for(i= 1;i<=7; i++){
+ str = ""
+  for(j=1; j<=7; j++){
+    if(i>=2 && i<=6 && j>=2 && j<=6){
+      str += "3"
+    } 
+       
+    else if(i>=3 || i<=5 && j>=3 || j<=5){
+      str += "4"
+    }
+     else if(i==7 && j==7){
+      str += "2"
+    }
+    // else {
+    //    str += "4"
+    // }
+  }
+  console.log(str)
+}
+>>>>>>> 45611c044d7c5592b945eca797a85e8330cf9a40
